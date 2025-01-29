@@ -28,4 +28,4 @@
 - Можете использовать как правила, так и хардкод, на своё
 - усмотрение. Главное, чтобы в игру можно было поиграть через
 - терминал с вашего компьютера
-- Решение: [PythonDZ3](https://github.com/555-F-a-r-id-555/Programming-Paradigms/blob/master/dz3/start_game.py "PythonDZ")
+- Решение: [PythonDZ3](https://github.com/555-F-a-r-id-555/Programming-Paradigms/blob/master/dz3 "PythonDZ")
