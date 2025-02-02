@@ -81,4 +81,4 @@ sum_lists_v3(List, Sum) :- sum_list(List, Sum).
 % Sum = 15.
 
 ```
-- Решение: [PythonDZ4](https://github.com/555-F-a-r-id-555/Programming-Paradigms/blob/master/dz5.pl "PythonDZ")
+- Решение: [PythonDZ5](https://github.com/555-F-a-r-id-555/Programming-Paradigms/blob/master/dz5.pl "PythonDZ")
