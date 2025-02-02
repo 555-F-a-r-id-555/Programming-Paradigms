@@ -28,7 +28,7 @@
 - Можете использовать как правила, так и хардкод, на своё
 - усмотрение. Главное, чтобы в игру можно было поиграть через
 - терминал с вашего компьютера
-- Решение: [PythonDZ3](https://github.com/555-F-a-r-id-555/Programming-Paradigms/blob/master/dz3 "PythonDZ")
+- Решение: [PythonDZ3](https://github.com/555-F-a-r-id-555/Programming-Paradigms/blob/master/dz3.py "PythonDZ")
 
 ### DZ4
 ### Корреляция Пирсона 
@@ -39,6 +39,8 @@
 -Написать скрипт для расчета корреляции Пирсона между двумя случайными величинами (двумя массивами).
 - Можете использовать любую парадигму, но рекомендую использовать функциональную, 
 - т.к. в этом примере она значительно упростит вам жизнь.
+- Решение: [PythonDZ4](https://github.com/555-F-a-r-id-555/Programming-Paradigms/blob/master/dz4.py "PythonDZ")
+
  
 ### DZ5
 ### Сумма элементов списка на языке Prolog
@@ -79,3 +81,4 @@ sum_lists_v3(List, Sum) :- sum_list(List, Sum).
 % Sum = 15.
 
 ```
+- Решение: [PythonDZ4](https://github.com/555-F-a-r-id-555/Programming-Paradigms/blob/master/dz5.pl "PythonDZ")
