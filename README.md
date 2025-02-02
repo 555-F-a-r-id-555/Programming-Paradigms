@@ -40,3 +40,42 @@
 - Можете использовать любую парадигму, но рекомендую использовать функциональную, 
 - т.к. в этом примере она значительно упростит вам жизнь.
  
+### DZ5
+### Сумма элементов списка на языке Prolog
+- ● Ваша задача
+- Написать программу на языке Prolog для вычисления суммы 
+- элементов списка. На вход подаётся целочисленный массив. 
+- На выходе - сумма элементов массива.
+
+-  Решение:
+``` prolog
+% Rules
+sum_elements([],0).
+sum_elements([H|T],Sum):-
+    sum_elements(T,Sum1),
+    Sum is Sum1 + H.
+
+% Query
+% ?- sum_elements([1,2,3,4,5], Sum).
+% Sum = 15.
+```
+- v2,v3
+```prolog
+% Rules_v2
+sum_lists(List, Sum) :-
+    foldl(plus, List, 0, Sum).
+
+% Query
+% ?- sum_lists([1,2,3,4,5], Sum).
+% Sum = 15.
+
+
+% Rules_v3
+:- use_module(library(lists)).
+sum_lists_v3(List, Sum) :- sum_list(List, Sum).
+
+% Query_v3:
+% ?- sum_lists_v3([1,2,3,4,5], Sum).
+% Sum = 15.
+
+```
