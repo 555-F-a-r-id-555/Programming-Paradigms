@@ -82,3 +82,32 @@ sum_lists_v3(List, Sum) :- sum_list(List, Sum).
 
 ```
 - Решение: [PythonDZ5](https://github.com/555-F-a-r-id-555/Programming-Paradigms/blob/master/dz5.pl "PythonDZ")
+
+### DZ6
+### Бинарный поиск
+```text
+Ваша задача:
+Написать программу на любом языке в любой парадигме для
+бинарного поиска. На вход подаётся целочисленный массив и
+число. На выходе - индекс элемента или -1, в случае если искомого
+элемента нет в массиве.
+```
+``` python
+
+    def binary_search(num_list, n, count=0):
+        if not num_list:
+            return -1
+        
+        middlle = len(num_list) // 2
+        left_half = num_list[:middlle]
+        right_half = num_list[middlle + 1:]
+        
+        if num_list[middlle] == n:
+            return count + middlle
+        elif num_list[middlle] > n:
+            return binary_search(left_half, n, count)
+        else:
+            return binary_search(right_half, n, count + middlle + 1)
+```
+
+- Решение: [PythonDZ6](https://github.com/555-F-a-r-id-555/Programming-Paradigms/blob/master/dz6.py "PythonDZ")
